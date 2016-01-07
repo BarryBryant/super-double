@@ -1,5 +1,7 @@
 package barqsoft.footballscores;
 
+import android.content.res.Resources;
+
 /**
  * Created by yehya khaled on 3/3/2015.
  */

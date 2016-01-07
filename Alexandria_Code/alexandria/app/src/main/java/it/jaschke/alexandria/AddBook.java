@@ -230,7 +230,7 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         //Remove the lock on screen rotation once barcode scan completed
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
-        if(result != null) {
+        if(result != null && result.getFormatName()!= null) {
             //Check the type of barcode being scanned before extracting the contents
             if(result.getFormatName().matches("EAN.*")) {
                 if (result.getContents() == null) {
