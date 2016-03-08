@@ -6,15 +6,15 @@ ___
 
 ### Required Components
 
-* Alexandria has barcode scanning functionality
-* Alexandria does not crash while searching for a book without an internet connection
-* Football Scores can be displayed in a widget
-* Football Scores app has content descriptions for all buttons
-* Football Scores app supports layout mirroring
+- [x] Alexandria has barcode scanning functionality
+- [x] Alexandria does not crash while searching for a book without an internet connection
+- [x] Football Scores can be displayed in a widget
+- [x] Football Scores app has content descriptions for all buttons
+- [x] Football Scores app supports layout mirroring
 
 ### Optional Components
 
-* Alexandria's barcode scanning functionality does not require the installation of a separate app on first use
-* Extra error cases are found, accounted for, and called out in code comments
-* Football Scores also supports a colection widget
-* Strings are all included in the strings.xml file and untranslatable strings have a translatable tag marked to false
+- [x] Alexandria's barcode scanning functionality does not require the installation of a separate app on first use
+- [x] Extra error cases are found, accounted for, and called out in code comments
+- [x] Football Scores also supports a colection widget
+- [x] Strings are all included in the strings.xml file and untranslatable strings have a translatable tag marked to false
